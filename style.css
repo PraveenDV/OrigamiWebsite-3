@@ -46,6 +46,14 @@
     flex-wrap: wrap;
 }
 
+.bodyImg{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left:10px; 
+}
+
+
+
 .origami{
     border-radius: 50;
     border: solid;
@@ -60,6 +68,14 @@
 .origami:hover img{
     border: solid;
     opacity: 0.6;
+    transform: scale(1.1);
+}
+a:link{
+    color:white ;
+}
+
+a:visited{
+    color:blue;
 }
 
 body{
